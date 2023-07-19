@@ -6,7 +6,7 @@ This code creates a Node.js server that exposes 4 APIs:
 /bar_chart: This API returns a bar chart of the number of items sold in each price range for the selected month.
 /pie_chart: This API returns a pie chart of the number of items in each category for the selected month.
 /combined_data: This API fetches the data from the statistics, bar chart, and pie chart APIs and combines it into a single JSON response.
-To run the code, you can save it as a file called app.js and then run the following command in your terminal:
+To run the code, you can save it as a file called api.js and then run the following command in your terminal:
 
 node api.js or nodemon api.js
 
